@@ -1,0 +1,188 @@
+,fdc_id,data_type,description,id,seq_num,amount,gram_weight,unit_name
+46286,321358,foundation_food,"Hummus, commercial",118804,1,2.0,33.9,tablespoon
+46288,322892,foundation_food,"Milk, whole, 3.25% milkfat, with added vitamin D",118953,3,1.0,15.0,tablespoon
+46291,323793,foundation_food,"Egg, white, dried",119069,1,1.0,7.0,tablespoon
+46317,324038,foundation_food,"Sauce, salsa, ready-to-serve",119097,1,2.0,35.7,tablespoon
+46320,324860,foundation_food,"Peanut butter, smooth style, with salt",119207,1,2.0,32.0,tablespoon
+46344,325036,foundation_food,"Cheese, parmesan, grated",119233,1,1.0,7.6,tablespoon
+46346,329490,foundation_food,"Egg, whole, dried",119691,3,1.0,5.0,tablespoon
+46348,329716,foundation_food,"Egg, yolk, dried",119700,3,1.0,4.0,tablespoon
+46359,330458,foundation_food,"Oil, coconut, liquid oil",119748,1,1.0,11.6,tablespoon
+46360,746777,foundation_food,"Sauce, salsa, ready-to-serve",187523,1,2.0,35.7,tablespoon
+46395,321359,foundation_food,"Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",118805,1,1.0,227.0,cup
+46396,321360,foundation_food,"Tomatoes, grape, raw",118809,2,1.0,152.0,cup
+46421,321611,foundation_food,"Beans, snap, green, canned, regular pack, drained solids, drained",118859,1,1.0,129.0,cup
+46424,321900,foundation_food,"Broccoli, raw, chopped",118864,1,1.0,76.0,cup
+46449,322228,foundation_food,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",118891,1,1.0,233.0,cup
+46474,322559,foundation_food,"Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)",118920,1,1.0,229.0,cup
+46500,322892,foundation_food,"Milk, whole, 3.25% milkfat, with added vitamin D",118951,1,1.0,229.0,cup
+46525,323294,foundation_food,"Nuts, almonds, dry roasted, with salt added, whole",119012,1,1.0,135.0,cup
+46549,323444,foundation_food,"Cheese, ricotta, whole milk",119036,1,0.2,64.6,cup
+46550,323444,foundation_food,"Cheese, ricotta, whole milk",119037,3,0.5,129.0,cup
+46551,323444,foundation_food,"Cheese, ricotta, whole milk",119038,3,1.0,258.0,cup
+46561,323505,foundation_food,"Kale, raw, pieces of ~1""",119057,1,1.0,20.6,cup
+46566,323793,foundation_food,"Egg, white, dried, sifted",119070,2,1.0,107.0,cup
+46570,324860,foundation_food,"Peanut butter, smooth style, with salt",119208,2,1.0,258.0,cup
+46589,325287,foundation_food,"Grapefruit juice, white, canned or bottled, unsweetened",119275,1,1.0,257.0,cup
+46591,325430,foundation_food,"Peaches, yellow, raw, slices with skin",119282,1,1.0,154.0,cup
+46603,325524,foundation_food,"Seeds, sunflower seed kernels, dry roasted, with salt added",119299,1,1.0,127.0,cup
+46614,326196,foundation_food,"Kale, frozen, cooked, boiled, drained, without salt, cooked",119431,1,1.0,118.0,cup
+46649,326698,foundation_food,"Mustard, prepared, yellow",119501,2,1.0,249.0,cup
+46651,326905,foundation_food,"Figs, dried, uncooked",119504,1,1.0,149.0,cup
+46654,327198,foundation_food,"Melons, cantaloupe, raw, cubes",119516,1,1.0,160.0,cup
+46655,327198,foundation_food,"Melons, cantaloupe, raw, diced",119517,2,1.0,156.0,cup
+46657,327357,foundation_food,"Nectarines, raw, slices",119530,1,1.0,143.0,cup
+46659,327501,foundation_food,"Oranges, raw, navels (Includes foods for USDA's Food Distribution Program), sections no membranes",119538,1,1.0,165.0,cup
+46703,328637,foundation_food,"Cheese, cheddar, shredded",119620,2,1.0,105.0,cup
+46735,328841,foundation_food,"Cheese, cottage, lowfat, 2% milkfat",119652,1,1.0,220.0,cup
+46768,329370,foundation_food,"Cheese, mozzarella, low moisture, part-skim",119685,1,1.0,86.2,cup
+46770,329490,foundation_food,"Egg, whole, dried, sifted",119690,2,1.0,85.0,cup
+46773,329716,foundation_food,"Egg, yolk, dried, sifted",119699,2,1.0,67.0,cup
+46786,329830,foundation_food,"Cheese, dry white, queso seco, grated",119713,1,1.0,97.3,cup
+46826,332597,foundation_food,"Pears, raw, bartlett (Includes foods for USDA's Food Distribution Program), slices",121449,1,1.0,140.0,cup
+46833,332864,foundation_food,"Sausage, pork, chorizo, link or ground, cooked, pan-fried, ground",121491,3,1.0,185.0,cup
+46902,333281,foundation_food,"Tomatoes, canned, red, ripe, diced",121582,1,1.0,245.0,cup
+46917,334247,foundation_food,"Sugars, granulated",121733,2,1.0,188.0,cup
+46929,334536,foundation_food,"Restaurant, Chinese, fried rice, without meat",121786,1,1.0,133.0,cup
+46930,746765,foundation_food,"Cheese, dry white, queso seco, grated",187494,1,1.0,97.3,cup
+46931,746766,foundation_food,"Cheese, ricotta, whole milk",187495,1,0.2,64.6,cup
+46932,746766,foundation_food,"Cheese, ricotta, whole milk",187496,3,0.5,129.0,cup
+46933,746766,foundation_food,"Cheese, ricotta, whole milk",187497,3,1.0,258.0,cup
+46934,746768,foundation_food,"Figs, dried, uncooked",187500,1,1.0,149.0,cup
+46935,746770,foundation_food,"Melons, cantaloupe, raw, cubes",187503,1,1.0,160.0,cup
+46936,746770,foundation_food,"Melons, cantaloupe, raw, diced",187504,2,1.0,156.0,cup
+46937,746771,foundation_food,"Oranges, raw, navels, sections no membranes",187512,1,1.0,165.0,cup
+46938,746772,foundation_food,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",187514,1,1.0,246.0,cup
+46939,746773,foundation_food,"Pears, raw, bartlett, slices",187515,1,1.0,140.0,cup
+46940,746776,foundation_food,"Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)",187522,1,1.0,246.0,cup
+46941,746778,foundation_food,"Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",187524,1,1.0,245.0,cup
+46942,746781,foundation_food,"Sausage, pork, chorizo, link or ground, cooked, pan-fried, ground",187529,3,1.0,185.0,cup
+46943,746782,foundation_food,"Milk, whole, 3.25% milkfat, with added vitamin D",187530,1,1.0,249.0,cup
+46944,746784,foundation_food,"Sugars, granulated",187534,2,1.0,188.0,cup
+46945,747447,foundation_food,"Broccoli, raw, chopped",187633,1,1.0,76.0,cup
+46947,321359,foundation_food,"Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",118806,2,1.0,30.5,fl oz
+46949,322228,foundation_food,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",118892,2,1.0,30.5,fl oz
+46951,322559,foundation_food,"Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)",118921,2,1.0,30.6,fl oz
+46953,322892,foundation_food,"Milk, whole, 3.25% milkfat, with added vitamin D",118952,2,1.0,30.5,fl oz
+46955,321359,foundation_food,"Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",118807,3,1.0,976.0,quart
+46957,322228,foundation_food,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",118893,3,1.0,976.0,quart
+46959,322559,foundation_food,"Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)",118922,3,1.0,980.0,quart
+46961,322892,foundation_food,"Milk, whole, 3.25% milkfat, with added vitamin D",118954,4,1.0,976.0,quart
+46986,334897,foundation_food,"Beef, loin, tenderloin roast, separable lean only, boneless, trimmed to 0"" fat, select, cooked, roasted, cooked",121868,1,1.0,462.0,roast
+46987,334898,foundation_food,"Beef, round, eye of round roast, boneless, separable lean only, trimmed to 0"" fat, select, raw, raw",121869,1,1.0,690.0,roast
+47000,334963,foundation_food,"Beef, round, top round roast, boneless, separable lean only, trimmed to 0"" fat, select, raw, raw",121894,1,1.0,788.0,roast
+47001,746758,foundation_food,"Beef, loin, tenderloin roast, separable lean only, boneless, trimmed to 0"" fat, select, cooked, roasted, cooked",187488,1,1.0,462.0,roast
+47002,746760,foundation_food,"Beef, round, eye of round roast, boneless, separable lean only, trimmed to 0"" fat, select, raw, raw",187490,1,1.0,690.0,roast
+47003,746761,foundation_food,"Beef, round, top round roast, boneless, separable lean only, trimmed to 0"" fat, select, raw, raw",187491,1,1.0,788.0,roast
+47064,334849,foundation_food,"Beef, loin, top loin steak, boneless, lip-on, separable lean only, trimmed to 1/8"" fat, choice, raw, raw",121855,1,1.0,284.0,steak
+47101,335061,foundation_food,"Beef, short loin, t-bone steak, bone-in, separable lean only, trimmed to 1/8"" fat, choice, cooked, grilled, cooked",121919,1,1.0,360.0,steak
+47114,335109,foundation_food,"Beef, short loin, porterhouse steak, separable lean only, trimmed to 1/8"" fat, select, raw, raw",121932,1,1.0,525.0,steak
+47115,746759,foundation_food,"Beef, loin, top loin steak, boneless, lip-on, separable lean only, trimmed to 1/8"" fat, choice, raw, raw",187489,1,1.0,284.0,steak
+47116,746762,foundation_food,"Beef, short loin, porterhouse steak, separable lean only, trimmed to 1/8"" fat, select, raw, raw",187492,1,1.0,525.0,steak
+47117,746763,foundation_food,"Beef, short loin, t-bone steak, bone-in, separable lean only, trimmed to 1/8"" fat, choice, cooked, grilled, cooked",187493,1,1.0,360.0,steak
+47128,321360,foundation_food,"Tomatoes, grape, raw",118808,1,5.0,49.7,tomatoes
+47153,321505,foundation_food,"Salt, table, iodized",118834,1,1.0,6.1,teaspoon
+47188,326698,foundation_food,"Mustard, prepared, yellow",119500,1,1.0,6.0,teaspoon
+47208,334247,foundation_food,"Sugars, granulated",121732,1,1.0,4.0,teaspoon
+47209,746775,foundation_food,"Salt, table, iodized",187521,1,1.0,6.1,teaspoon
+47210,746784,foundation_food,"Sugars, granulated",187533,1,1.0,4.0,teaspoon
+47245,323121,foundation_food,"Frankfurter, beef, unheated",118987,1,1.0,48.6,piece
+47268,324317,foundation_food,"Onion rings, breaded, par fried, frozen, prepared, heated in oven",119129,1,1.0,20.2,piece
+47280,331960,foundation_food,"Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised",121343,1,1.0,174.0,piece
+47289,334628,foundation_food,"Restaurant, Latino, tamale, pork",121795,1,1.0,142.0,piece
+47300,334720,foundation_food,"Restaurant, Latino, pupusas con frijoles (pupusas, bean)",121806,1,1.0,126.0,piece
+47830,323604,foundation_food,"Egg, whole, raw, frozen, pasteurized",119060,1,1.0,28.4,oz
+47832,323697,foundation_food,"Egg, white, raw, frozen, pasteurized",119063,1,1.0,28.4,oz
+47835,329490,foundation_food,"Egg, whole, dried",119689,1,1.0,28.4,oz
+47837,329596,foundation_food,"Egg, yolk, raw, frozen, pasteurized",119694,1,1.0,28.4,oz
+47839,329716,foundation_food,"Egg, yolk, dried",119698,1,1.0,28.4,oz
+47848,324157,foundation_food,"Sausage, breakfast sausage, beef, pre-cooked, unprepared",119107,1,1.0,18.6,link
+47870,325658,foundation_food,"Sausage, Italian, pork, mild, cooked, pan-fried, medium",119321,1,1.0,86.6,link
+47874,325992,foundation_food,"Sausage, turkey, breakfast links, mild, raw",119351,1,1.0,27.9,link
+47879,332864,foundation_food,"Sausage, pork, chorizo, link or ground, cooked, pan-fried, medium",121489,1,1.0,80.4,link
+47880,332864,foundation_food,"Sausage, pork, chorizo, link or ground, cooked, pan-fried, long",121490,2,1.0,186.0,link
+47881,746779,foundation_food,"Sausage, breakfast sausage, beef, pre-cooked, unprepared",187525,1,1.0,18.6,link
+47882,746780,foundation_food,"Sausage, Italian, pork, mild, cooked, pan-fried, medium",187526,1,1.0,86.6,link
+47883,746781,foundation_food,"Sausage, pork, chorizo, link or ground, cooked, pan-fried, medium",187527,1,1.0,80.4,link
+47884,746781,foundation_food,"Sausage, pork, chorizo, link or ground, cooked, pan-fried, long",187528,2,1.0,186.0,link
+47885,746783,foundation_food,"Sausage, turkey, breakfast links, mild, raw",187531,1,1.0,27.9,link
+47922,324653,foundation_food,"Pickles, cucumber, dill or kosher dill",119202,1,1.0,40.4,spear
+47946,325198,foundation_food,"Cheese, pasteurized process, American, vitamin D fortified",119257,1,1.0,20.6,slice
+47963,325871,foundation_food,"Bread, white, commercially prepared",119338,1,1.0,27.3,slice
+47986,326135,foundation_food,"Cheese, swiss, regular",119397,1,1.0,21.9,slice
+47987,326135,foundation_food,"Cheese, swiss, thin",119398,2,1.0,10.9,slice
+48019,328637,foundation_food,"Cheese, cheddar",119619,1,1.0,17.0,slice
+48041,332397,foundation_food,"Ham, sliced, pre-packaged, deli meat (96%fat free, water added)",121438,1,1.0,13.5,slice
+48061,335240,foundation_food,"Bread, whole-wheat, commercially prepared",121952,1,1.0,32.1,slice
+48062,746767,foundation_food,"Cheese, swiss, regular",187498,1,1.0,21.9,slice
+48063,746767,foundation_food,"Cheese, swiss, thin",187499,2,1.0,10.9,slice
+48087,746952,foundation_food,"Ham, sliced, restaurant",187559,1,1.0,16.2,slice
+48160,747429,foundation_food,"Cheese, American, restaurant",187632,1,1.0,16.0,slice
+48212,749420,foundation_food,"Pork, cured, bacon, cooked, restaurant",193859,1,1.0,6.3,slice
+48217,325430,foundation_food,"Peaches, yellow, raw, small (2-1/2"" dia)",119283,2,1.0,147.0,fruit
+48218,325430,foundation_food,"Peaches, yellow, raw, medium (2-2/3"" dia)",119284,3,1.0,161.0,fruit
+48219,325430,foundation_food,"Peaches, yellow, raw, large (2-3/4"" dia)",119285,4,1.0,173.0,fruit
+48220,325430,foundation_food,"Peaches, yellow, raw, extra large (3"" dia)",119286,5,1.0,225.0,fruit
+48222,325430,foundation_food,"Peaches, yellow, raw, NLEA",119287,6,1.0,147.0,serving
+48225,327357,foundation_food,"Nectarines, raw, NLEA",119534,5,1.0,140.0,serving
+48263,332282,foundation_food,"Sauce, pasta, spaghetti/marinara, ready-to-serve, 1/2 cup",121416,1,1.0,135.0,serving
+48274,325992,foundation_food,"Sausage, turkey, breakfast links, mild, raw",119352,2,1.0,450.0,package
+48297,746783,foundation_food,"Sausage, turkey, breakfast links, mild, raw",187532,2,1.0,450.0,package
+48450,330869,foundation_food,"Turkey, ground, 93% lean, 7% fat, pan-broiled crumbles, crumbles",120042,1,1.0,155.0,paired cooked w
+48692,746785,foundation_food,"Turkey, ground, 93% lean, 7% fat, pan-broiled crumbles, crumbles",187535,1,1.0,155.0,paired cooked w
+48694,326905,foundation_food,"Figs, dried, uncooked",119505,2,1.0,8.4,each
+48698,327198,foundation_food,"Melons, cantaloupe, raw, large (about 6-1/2"" dia)",119518,3,1.0,814.0,each
+48699,327198,foundation_food,"Melons, cantaloupe, raw, medium (about 5"" dia)",119520,5,1.0,552.0,each
+48700,327198,foundation_food,"Melons, cantaloupe, raw, small (about 4-1/4"" dia)",119522,7,1.0,441.0,each
+48704,327357,foundation_food,"Nectarines, raw, 2-1/3"" dia",119531,2,1.0,129.0,each
+48705,327357,foundation_food,"Nectarines, raw, 2-1/2"" dia",119532,3,1.0,142.0,each
+48706,327357,foundation_food,"Nectarines, raw, 2-3/4"" dia",119533,4,1.0,156.0,each
+48708,327501,foundation_food,"Oranges, raw, navels (Includes foods for USDA's Food Distribution Program), 2-7/8"" dia",119539,2,1.0,140.0,each
+48715,332597,foundation_food,"Pears, raw, bartlett (Includes foods for USDA's Food Distribution Program), small",121450,2,1.0,148.0,each
+48716,332597,foundation_food,"Pears, raw, bartlett (Includes foods for USDA's Food Distribution Program), medium",121451,3,1.0,178.0,each
+48717,332597,foundation_food,"Pears, raw, bartlett (Includes foods for USDA's Food Distribution Program), large",121452,4,1.0,230.0,each
+48718,746768,foundation_food,"Figs, dried, uncooked",187501,2,1.0,8.4,each
+48719,746770,foundation_food,"Melons, cantaloupe, raw, large (about 6-1/2"" dia)",187505,3,1.0,814.0,each
+48720,746770,foundation_food,"Melons, cantaloupe, raw, medium (about 5"" dia)",187507,5,1.0,552.0,each
+48721,746770,foundation_food,"Melons, cantaloupe, raw, small (about 4-1/4"" dia)",187509,7,1.0,441.0,each
+48722,746771,foundation_food,"Oranges, raw, navels, 2-7/8"" dia",187513,2,1.0,140.0,each
+48723,746773,foundation_food,"Pears, raw, bartlett, small",187516,2,1.0,148.0,each
+48724,746773,foundation_food,"Pears, raw, bartlett, medium",187517,3,1.0,178.0,each
+48725,746773,foundation_food,"Pears, raw, bartlett, large",187518,4,1.0,230.0,each
+48729,327198,foundation_food,"Melons, cantaloupe, raw, large (1/8 of large melon)",119519,4,1.0,102.0,wedge
+48730,327198,foundation_food,"Melons, cantaloupe, raw, medium (1/8 of medium melon)",119521,6,1.0,69.0,wedge
+48731,327198,foundation_food,"Melons, cantaloupe, raw, small (1/8 of small melon)",119523,8,1.0,55.0,wedge
+48732,746770,foundation_food,"Melons, cantaloupe, raw, large (1/8 of large melon)",187506,4,1.0,102.0,wedge
+48733,746770,foundation_food,"Melons, cantaloupe, raw, medium (1/8 of medium melon)",187508,6,1.0,69.0,wedge
+48734,746770,foundation_food,"Melons, cantaloupe, raw, small (1/8 of small melon)",187510,8,1.0,55.0,wedge
+48736,327198,foundation_food,"Melons, cantaloupe, raw, balls",119524,9,10.0,138.0,pieces
+48750,334462,foundation_food,"Restaurant, Chinese, sweet and sour pork",121774,2,3.0,41.8,pieces
+48751,746770,foundation_food,"Melons, cantaloupe, raw, balls",187511,9,10.0,138.0,pieces
+48752,746774,foundation_food,"Restaurant, Chinese, sweet and sour pork",187520,2,3.0,41.8,pieces
+48757,327923,foundation_food,"Lettuce, cos or romaine, raw",119544,1,1.0,581.0,bunch
+48758,746769,foundation_food,"Lettuce, cos or romaine, raw",187502,1,1.0,581.0,bunch
+48780,330137,foundation_food,"Yogurt, Greek, plain, nonfat",119735,1,1.0,156.0,container
+48782,330415,foundation_food,"Yogurt, Greek, strawberry, nonfat, 5.3 oz",119737,1,1.0,150.0,container
+49143,331897,foundation_food,"Chicken, broilers or fryers, drumstick, meat only, cooked, braised, without skin",121308,1,1.0,94.7,drumstick
+49144,331897,foundation_food,"Chicken, broilers or fryers, drumstick, meat only, cooked, braised, with skin",121309,2,1.0,104.0,drumstick
+49500,332791,foundation_food,"Olives, green, Manzanilla, stuffed with pimiento",121478,1,1.0,3.2,olive
+49522,333008,foundation_food,"Cookies, oatmeal, soft, with raisins",121513,1,1.0,27.0,cookie
+49531,333374,foundation_food,"Fish, haddock, raw",121591,1,1.0,176.0,fillet
+49540,333476,foundation_food,"Fish, pollock, raw",121600,1,1.0,177.0,fillet
+49637,334194,foundation_food,"Fish, tuna, light, canned in water, drained solids, drained solids",121697,1,1.0,107.0,can
+49638,334194,foundation_food,"Fish, tuna, light, canned in water, drained solids, total can contents",121698,2,1.0,142.0,can
+49651,334462,foundation_food,"Restaurant, Chinese, sweet and sour pork",121773,1,1.0,611.0,order
+49652,746774,foundation_food,"Restaurant, Chinese, sweet and sour pork",187519,1,1.0,611.0,order
+52557,747997,foundation_food,"Eggs, Grade A, Large, egg white, white",190538,1,1.0,34.0,egg
+54355,748236,foundation_food,"Eggs, Grade A, Large, egg yolk, yolk",192336,1,1.0,17.0,egg
+55781,748967,foundation_food,"Eggs, Grade A, Large, egg whole, whole without shell",193781,1,1.0,50.3,egg
+55785,748278,foundation_food,"Oil, canola",192340,1,100.0,90.9,milliliter
+55789,748323,foundation_food,"Oil, corn",192344,1,100.0,91.3,milliliter
+55793,748366,foundation_food,"Oil, soybean",192348,1,100.0,91.3,milliliter
+55800,748608,foundation_food,"Oil, olive, extra virgin",192355,1,100.0,90.7,milliliter
+55887,790577,foundation_food,"Onions, red, raw, Edible",234609,1,1.0,197.0,Onion
+55976,790646,foundation_food,"Onions, yellow, raw, Edible",234698,1,1.0,143.0,Onion
+56127,790774,foundation_food,"Bananas, overripe, raw, Peeled",234849,1,1.0,110.0,Banana
+56434,790991,foundation_food,"Bananas, ripe and slightly ripe, raw, Peeled",235156,1,1.0,115.0,Banana
+56585,1105073,foundation_food,"Bananas, overripe, raw, Peeled",267488,1,1.0,110.0,Banana
+56892,1105314,foundation_food,"Bananas, ripe and slightly ripe, raw, Peeled",267795,1,1.0,115.0,Banana

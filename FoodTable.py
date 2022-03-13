@@ -37,7 +37,7 @@ class FoodTable:
             on="id",
             how="outer"
         )
-        FoodTable.units_df = units_df
+        FoodTable.units_df = units_df.copy()
         units_df = units_df.drop(columns="name")
 
         food_df = pd.read_csv(os.path.join(DATA_PATH, "food.csv"), dtype="string").drop(
@@ -53,7 +53,7 @@ class FoodTable:
         pass
 
     def _make(self):
-        self._df = self._dirty_df
+        self._df = self._dirty_df.copy()
         self._clean()
         self._df = self._df.dropna(subset=["equiv"])
         self._df["gram_weight"] = self._df["gram_weight"].astype(np.float64)
@@ -66,3 +66,4 @@ class FoodTable:
             return self._df
 
         self._make()
+        return self._df

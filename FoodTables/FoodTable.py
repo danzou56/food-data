@@ -5,8 +5,8 @@ import sqlite3
 
 FOOD_DATA_VERSION = "2021-10-28"
 VERSION = FOOD_DATA_VERSION.replace("-", "")
-DATA_PATH = os.path.join("data", FOOD_DATA_VERSION)
-DB_PATH = "data.sqlite"
+DATA_PATH = os.path.join("../data", FOOD_DATA_VERSION)
+DB_PATH = "../data.sqlite"
 
 
 class FoodTable:

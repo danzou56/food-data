@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import sqlite3
 
-from FoundationTable import FoundationTable
+from FoodTables.FoundationTable import FoundationTable
 
 if __name__ == '__main__':
     u_df = pd.read_csv("units.csv", dtype={"id": "string", "name": "string", "equiv": np.float64})

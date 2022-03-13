@@ -1,7 +1,7 @@
 import numpy as np
 
-from FoodTable import FoodTable
-from utils import get_joinner
+from FoodTables.FoodTable import FoodTable
+from FoodTables.utils import get_joinner
 
 
 class FoundationTable(FoodTable):

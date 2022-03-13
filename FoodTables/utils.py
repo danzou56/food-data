@@ -47,5 +47,3 @@ def clean_unit(unit):
             return real_unit
     #print(f"{unit} wasn't a real unit")
     return None
-
-VOLUME_UNITS

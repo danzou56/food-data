@@ -18,8 +18,3 @@ class FoundationTable(FoodTable):
         self._df = self._df.drop(columns="portion_description")
         self._df["description"] = self._df["description"].apply(lambda s: s.strip())
         self._df = self._df.apply(get_joinner("description", "modifier"), axis=1).drop(columns="modifier")
-
-
-if __name__ == '__main__':
-    ft = FoundationTable()
-    print("Done")

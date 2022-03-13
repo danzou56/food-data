@@ -31,7 +31,7 @@ class FoodTable:
     def _init_base_df():
         units_df = pd.read_csv(os.path.join(DATA_PATH, "measure_unit.csv"), dtype="string")
         # units_df.loc[units_df["name"] == "Tablespoons", "name"] = "tablespoon"
-        conversions_df = pd.read_sql_query(sql="SELECT * FROM conversions", con=FoodTable._data_con)
+        conversions_df = pd.read_sql_query(sql="SELECT * FROM unit_conversions", con=FoodTable._data_con)
         units_df = units_df.merge(
             conversions_df,
             on="id",
@@ -61,9 +61,10 @@ class FoodTable:
         self._df["g_per_ml"] = self._df["gram_weight"] / self._df["amount"] * self._df["equiv"]
         self._df = self._df.drop(columns=["amount", "gram_weight", "equiv"])
 
-    def get_df(self):
+    def get_df(self) -> pd.DataFrame:
         if self._df is not None:
             return self._df
 
         self._make()
+        assert self._df is not None
         return self._df

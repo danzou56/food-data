@@ -24,9 +24,8 @@ class FoodTable:
         # if FoodTable.units_df is None:
         #     FoodTable.units_df = pd.read_sql_table(table_name="conversions", con=FoodTable._data_con)
 
-        # TODO: drop name column of units_df
         if FoodTable.base_df is None:
-            units_df = pd.read_csv(os.path.join(DATA_PATH, "measure_unit.csv"), dtype="string")
+            units_df = pd.read_csv(os.path.join(DATA_PATH, "measure_unit.csv"), dtype="string").drop(columns="name")
             # units_df.loc[units_df["name"] == "Tablespoons", "name"] = "tablespoon"
             conversions_df = pd.read_sql_query(sql="SELECT * FROM conversions", con=FoodTable._data_con)
             units_df = units_df.merge(
@@ -41,7 +40,7 @@ class FoodTable:
                 columns=["min_year_acquired", "data_points", "footnote"])
 
             FoodTable.base_df = food_df.merge(portions_df, on="fdc_id") \
-                .merge(units_df.rename(columns={"id": "measure_unit_id", "name": "unit_name"}), on="measure_unit_id") \
+                .merge(units_df.rename(columns={"id": "measure_unit_id"}), on="measure_unit_id") \
                 .drop(columns=["measure_unit_id"])
 
         self.df: pd.DataFrame = FoodTable.base_df[FoodTable.base_df["data_type"] == data_type]

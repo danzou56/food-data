@@ -51,7 +51,7 @@ class FoodTable:
         """Produces units dataframe with columns id, name, equiv"""
         units_df = pd.read_csv(os.path.join(DATA_PATH, "measure_unit.csv"), dtype="string")
         units_df = units_df.drop(index=units_df.loc[units_df["name"] == "Tablespoons"].index)
-        conversions_df = pd.read_sql_query(sql="SELECT * FROM unit_conversions", con=FoodTable._data_con)
+        conversions_df = pd.read_sql_query(sql="SELECT * FROM volume_conversions", con=FoodTable._data_con)
         units_df = units_df.merge(
             conversions_df.drop(columns="name"),
             on="id",

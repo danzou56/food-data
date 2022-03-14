@@ -16,5 +16,4 @@ class FoundationTable(FoodTable):
         # make sure there's no more non-nans, just in case data changes in future
         assert len(self._df.dropna(subset="portion_description")) == 0
         self._df = self._df.drop(columns="portion_description")
-        self._df["description"] = self._df["description"].apply(lambda s: s.strip())
         self._df = self._df.apply(get_joinner("description", "modifier"), axis=1).drop(columns="modifier")

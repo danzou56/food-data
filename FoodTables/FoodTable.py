@@ -22,6 +22,7 @@ class FoodTable:
         FoodTable._init_static_fields()
 
         self._dirty_df: pd.DataFrame = FoodTable.base_df[FoodTable.base_df["data_type"] == data_type]
+        self._dirty_df["description"] = self._dirty_df["description"].apply(lambda s: s.strip())
 
     @staticmethod
     def _init_static_fields():

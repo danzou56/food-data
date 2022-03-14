@@ -3,6 +3,7 @@ import pandas as pd
 import sqlite3
 
 from FoodTables.FoundationTable import FoundationTable
+from FoodTables.MarketTable import MarketTable
 
 VOLUME_CONVERSIONS_TABLE = "volume_conversions"
 MASS_CONVERSIONS_TABLE = "mass_conversions"
@@ -28,9 +29,13 @@ if __name__ == '__main__':
         index=False
     )
 
-    ft = FoundationTable()
-    ft_df = ft.get_df()
-    ft_df.to_sql(
+    pd.concat(
+        [
+            FoundationTable().get_df(),
+            MarketTable().get_df()
+        ],
+        ignore_index=True
+    ).to_sql(
         name=FOOD_TABLE,
         con=sqlite3.connect("data.sqlite"),
         if_exists="replace",

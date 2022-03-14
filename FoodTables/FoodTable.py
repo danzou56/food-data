@@ -33,7 +33,7 @@ class FoodTable:
         # units_df.loc[units_df["name"] == "Tablespoons", "name"] = "tablespoon"
         conversions_df = pd.read_sql_query(sql="SELECT * FROM unit_conversions", con=FoodTable._data_con)
         units_df = units_df.merge(
-            conversions_df,
+            conversions_df.drop(columns="name"),
             on="id",
             how="outer"
         )

@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 
 import FoodTables.FoodTable
+from FoodTables.FoodTable import FoodTable
 from FoodTables.FoundationTable import FoundationTable
 from FoodTables.MarketTable import MarketTable
 
@@ -51,21 +52,22 @@ def main():
     if not isdir(args.schema_dir):
         raise Exception("Schema directory wasn't a directory!")
     newest_schema = get_most_recent(args.schema_dir)
+
+    db_lm = getmtime(args.output) if isfile(args.output) else 0
+    this_lm = getmtime(__file__)
+    schema_lm = getmtime(newest_schema)
+    tables_lm = max([getmtime(inspect.getfile(table)) for table in TABLES + [FoodTable]])
+    conv_lm = getmtime("conversions.csv")
     if newest_schema is None:
         raise Exception("Schema directory was empty!")
     
     _con = None
     get_con = lambda: sqlite3.connect(args.output) if _con is None else _con
     FoodTables.FoodTable.DB_PATH = args.output
-    
-    db_lm = getmtime(args.output) if isfile(args.output) else 0
-    schema_lm = getmtime(newest_schema)
-    tables_lm = max([getmtime(inspect.getfile(table)) for table in TABLES])
-    conv_lm = getmtime("conversions.csv")
 
     # Don't bother remaking the database if it's newer than the schema
     # To force recreation, touch the schema JSON
-    if schema_lm >= db_lm:
+    if schema_lm >= db_lm or this_lm >= db_lm:
         queries = get_create_queries(newest_schema)
         # TODO ensure queries keys give exactly the expected tables
         for table_name, query in queries.items():

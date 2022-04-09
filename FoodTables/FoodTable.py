@@ -6,7 +6,7 @@ import sqlite3
 FOOD_DATA_VERSION = "2021-10-28"
 VERSION = FOOD_DATA_VERSION.replace("-", "")
 DATA_PATH = os.path.join("data", FOOD_DATA_VERSION)
-DB_PATH = "data.sqlite"
+DB_PATH = None
 
 
 class FoodTable:
@@ -83,7 +83,7 @@ class FoodTable:
             .dropna(subset=["equiv"])
         self._df["gram_weight"] = self._df["gram_weight"].astype(np.float64)
         self._df["amount"] = self._df["amount"].astype(np.float64)
-        self._df["g_per_ml"] = self._df["gram_weight"] / self._df["amount"] * self._df["equiv"]
+        self._df["g_per_ml"] = self._df["gram_weight"] / (self._df["amount"] * self._df["equiv"])
         self._df = self._df.drop(columns=["amount", "gram_weight", "equiv"])
 
     def get_df(self) -> pd.DataFrame:
